@@ -16,7 +16,7 @@ router.get('/', asyncHandler(async (req, res) => {
     res.render('book-list', { title: 'Books', books });
 }));
 
-router.get('./book/add', csrfProtection, (req, res) => {
+router.get('/book/add', csrfProtection, (req, res) => {
     const book = db.Book.build();
     res.render('book-add', {
         title: 'Add Book',
