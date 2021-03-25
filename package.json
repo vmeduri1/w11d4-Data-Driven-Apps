@@ -19,6 +19,7 @@
   "homepage": "https://github.com/vmeduri1/w11d4-Data-Driven-Apps#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "morgan": "^1.10.0",
     "pug": "^3.0.2"
   },
   "devDependencies": {
