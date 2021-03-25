@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/vmeduri1/w11d4-Data-Driven-Apps#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "csurf": "^1.11.0",
     "express": "^4.17.1",
     "morgan": "^1.10.0",
     "per-env": "^1.0.2",
